@@ -1,0 +1,97 @@
+:root{
+    --text-primary: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    background: rgb(202, 199, 199);
+    padding: 20px 0;
+}
+
+.text-primary{
+    color: var(--text-primary);
+    text-transform: capitalize;
+}
+
+.lead{
+    font-weight: 800;
+}
+
+.lead-sm{
+    font-weight: 600;
+    color: #777 ;
+}
+
+.line{
+    border-bottom: 2px solid var(--text-primary);
+    margin: 0 40px;
+}
+
+.line-right{
+    border-left: 5px solid var(--text-primary);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
+h3,p{
+    margin-bottom: 5px;
+}
+.container{
+    max-width: 1200px;
+    background-color: #f4f4f4;
+    margin: auto;
+    display: flex;
+}
+
+.left .top{
+    position: relative;
+    height: 100px;
+}
+
+.top .profile-img{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 120px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.left .buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 110vh;
+    text-align: center;
+    background: rgba(217, 126, 41, 0.834);
+}
+
+.left .buttom .name{
+    margin-top: 60px;
+}
+
+.left .buttom .skills label{
+    display: block;
+}
+
+.right{
+    padding: 30px 40px;
+}
+
+
+
+
+
